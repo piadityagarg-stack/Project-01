@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+    color: white;
+}
+
+@font-face {
+  font-family: Gilroy; /* set name */
+  src: url(Gilroy-ExtraBold.otf); /* url of the font */
+}
+
+@font-face {
+  font-family: Font; /* set name */
+  src: url(PPMori-Regular.otf); /* url of the font */
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    /* Dont give any height or width to this */
+    background-color: #0f0d0d;
+}
+
+.page1{
+    min-height: 100vh;
+    width: 100%;
+}
+
+.nav{
+    padding: 0 2vw;
+    width: 100%;
+    height: 10vh;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav img{
+    height: 4.5vh;
+}
+
+.nav-part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+    font-size: 1vmax;
+}
+
+.nav-part2 h4{
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+.nav-part2 h4:nth-child(1){
+    border-bottom: 1px solid white;
+}
+
+.circle{
+    height: 2vh;
+    width: 2vh;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.page1 h1{
+    font-size: 8vw;
+    font-weight: 400;
+    font-family: 'Font';
+    margin-top: 20vmin;
+    margin-left: 5vw;
+}
+.page1 h2{
+    font-size: 8vw;
+    font-weight: 400;
+    font-family: 'Font';
+    margin-left: 33vw;
+}
+
+.page1 video{
+    width: 60%;
+    margin-top: 10vmin;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+
+.page2{
+    min-height: 130vh;
+    width: 100%;
+    padding: 10vw 5vw;
+}
+
+.page2 h1{
+    font-size: 7vw;
+    font-weight: 300;
+    font-family: 'Font';
+    color: black;
+}
+
+.page2-container{
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.page2-left{
+    width: 35vw;
+}
+
+.page2-right{
+    width: 30vw;
+}
+
+.page2-left h2{
+    font-size: 3.8vw;
+    font-family: 'Font';
+    color: black;
+    font-weight: 200;
+    
+}
+
+.page2-right p{
+    font-family: 'Font';
+    font-size: 1.5vw;
+    font-weight: 500;
+    color: black;
+    line-height: 2vw;
+}
+
+.page2-right button{
+    width: 100%;
+    border-radius: 50px;
+    border: none;
+    padding: 0.5vh;
+    background-color: #edbfff;
+    color: #111;
+    margin-top: 2vw;
+    font-family: 'Font';
+}
